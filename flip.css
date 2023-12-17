@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: auto;
+  background-image: linear-gradient(135deg, #e9defa 10%, #fbfcdb 100%);
+  background-repeat: no-repeat;
+  font-family: Helvetica, sans-serif;
+  color: rgb(211, 211, 211);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.pislit{
+  color: black;
+  font-size: 30px;
+}
+
+.ubos{
+  text-align: center;
+}
+
+.ubospa{
+  color: black;
+  font-size: 40px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 400px;
+    perspective: 800px;
+}
+
+
+
+.container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-image: url(sgirl.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.back {
+  background-color: #3a3a3a;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.back-text{
+    font-size: 20px;
+    text-align: center;
+}
+
+h1{
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+
+/*Container2*/
+
+
+.container2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 400px;
+  perspective: 800px;
+}
+
+
+
+.container2:hover > .card2 {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+
+.card2 {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1s;
+transform-style: preserve-3d;
+}
+
+.front2,
+.back2 {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+
+.front2 {
+background-image: url(sun.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+.back2 {
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+.back-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+font-size: 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+/* End */ 
+
+/*Container3*/
+
+
+.container3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 400px;
+  perspective: 800px;
+}
+
+
+
+.container3:hover > .card3 {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+
+.card3 {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1s;
+transform-style: preserve-3d;
+}
+
+.front3,
+.back3 {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+
+.front3 {
+background-image: url(sun2.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+.back3 {
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+.back-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+font-size: 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+/* End */ 
+
+/*Container4*/
+
+
+.container4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 400px;
+  perspective: 800px;
+}
+
+
+
+.container4:hover > .card4 {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+
+.card4 {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1s;
+transform-style: preserve-3d;
+}
+
+.front4,
+.back4 {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+
+.front4 {
+background-image: url(flip4.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+.back4 {
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+.back-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+font-size: 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+/* End */ 
+
+/*Container5*/
+
+.container5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 400px;
+  perspective: 800px;
+}
+
+
+
+.container5:hover > .card5 {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+
+.card5 {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1s;
+transform-style: preserve-3d;
+}
+
+.front5,
+.back5 {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+
+.front5 {
+background-image: url(flip5.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+.back5 {
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+.back-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+font-size: 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+/* End */ 
+
+
+/*Container6*/
+
+.container6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 400px;
+  perspective: 800px;
+}
+
+
+
+.container6:hover > .card6 {
+cursor: pointer;
+transform: rotateY(180deg);
+}
+
+.card6 {
+height: 100%;
+width: 100%;
+position: relative;
+transition: transform 1s;
+transform-style: preserve-3d;
+}
+
+.front6,
+.back6 {
+height: 100%;
+width: 100%;
+border-radius: 2rem;
+box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+position: absolute;
+backface-visibility: hidden;
+}
+
+.front6 {
+background-image: url(flip6.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+.back6 {
+background-color: #3a3a3a;
+transform: rotateY(180deg);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 5rem;
+}
+
+.back-text{
+  font-size: 20px;
+  text-align: center;
+}
+
+h1{
+font-size: 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-size: 30px;
+}
+
+/* End */ 
+
